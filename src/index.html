@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>URL Validator</title>
+</head>
+<body>
+    <h1>URL Validation Using DFA</h1>
+    <form method="post">
+        <input type="text" name="url" placeholder="Enter URL" required>
+        <button type="submit">Validate</button>
+    </form>
+    {% if result %}
+    <p>Result: {{ result }}</p>
+    {% endif %}
+</body>
+</html>
